@@ -85,7 +85,7 @@ DATABASES = {
         'NAME': 'stylistsapidb',
         'USER': 'postgres',
         'PASSWORD': 'postgrespassword',
-        'HOST': 'localhost',
+        'HOST': 'http://styledin-stylists-api.herokuapp.com',
         'PORT': '5433',
     }
 }
