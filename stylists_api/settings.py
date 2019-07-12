@@ -27,7 +27,7 @@ SECRET_KEY = '_wdefhn*-bddzc@*z+-mpums6jqbyu=w!s0l(b770ld88!fiv('
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['0.0.0.0', 'localhost', '127.0.0.1', 'styledin-stylists-api.herokuapp.com']
 
 
 # Application definition
