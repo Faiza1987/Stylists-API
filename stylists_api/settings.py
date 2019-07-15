@@ -158,4 +158,5 @@ REST_FRAMEWORK = {
 }
 REST_USE_JWT = True
 
+
 django_heroku.settings(locals())
