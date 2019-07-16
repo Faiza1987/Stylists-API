@@ -21,13 +21,13 @@ class UserProfile(models.Model):
 
     phone_number = models.CharField(max_length=10)
     years_experience = models.IntegerField(default=0)
-    licenses = models.ImageField(upload_to='uploads', blank=True)
-    photo1 = models.FileField(upload_to='uploads', blank=True)
-    photo2 = models.FileField(upload_to='uploads', blank=True)
-    photo3 = models.FileField(upload_to='uploads', blank=True)
-    photo4 = models.FileField(upload_to='uploads', blank=True)
-    photo5 = models.FileField(upload_to='uploads', blank=True)
-    photo6 = models.FileField(upload_to='uploads', blank=True)
+    licenses = models.FileField(upload_to='uploads', blank=True)
+    photo1 = models.ImageField(upload_to='uploads', blank=True)
+    photo2 = models.ImageField(upload_to='uploads', blank=True)
+    photo3 = models.ImageField(upload_to='uploads', blank=True)
+    photo4 = models.ImageField(upload_to='uploads', blank=True)
+    photo5 = models.ImageField(upload_to='uploads', blank=True)
+    photo6 = models.ImageField(upload_to='uploads', blank=True)
     specializations = models.TextField(max_length=1000)
 
 
