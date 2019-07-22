@@ -46,7 +46,6 @@ INSTALLED_APPS = [
     'rest_framework',
     'rest_framework.authtoken',
     'rest_auth',
-
 ]
 
 MIDDLEWARE = [
@@ -60,9 +59,11 @@ MIDDLEWARE = [
     'django.middleware.clickjacking.XFrameOptionsMiddleware',
 ]
 
-CORS_ORIGIN_WHITELIST = [
-    'http://localhost:3000',
-]
+# CORS_ORIGIN_WHITELIST = [
+#     'http://localhost:3000',
+# ]
+
+CORS_ORIGIN_ALLOW_ALL = True
 
 ROOT_URLCONF = 'stylists_api.urls'
 
@@ -160,6 +161,5 @@ REST_FRAMEWORK = {
     ),
 }
 REST_USE_JWT = True
-
 
 django_heroku.settings(locals())
