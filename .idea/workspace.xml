@@ -2,10 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e0e4c708-57d3-4194-a667-e6197884ac5f" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/jobs_api/permissions.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jobs_api/serializers.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jobs_api/urls.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/api/migrations/0001_initial.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/api/migrations/0002_auto_20190709_2001.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/api/migrations/0003_auto_20190709_2018.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/api/migrations/0004_auto_20190709_2019.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/api/migrations/0005_remove_userprofile_years_experience.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/api/migrations/0006_userprofile_years_experience.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/api/migrations/0007_auto_20190710_1857.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/api/migrations/0008_auto_20190716_0038.py" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -20,6 +24,18 @@
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="30">
               <caret line="2" column="5" selection-start-line="2" selection-start-column="5" selection-end-line="2" selection-end-column="5" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/api/models.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="555">
+              <caret line="37" lean-forward="true" selection-start-line="37" selection-end-line="37" />
+              <folding>
+                <element signature="e#0#28#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -69,7 +85,7 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/jobs_api/urls.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="135">
@@ -144,7 +160,24 @@
             <path>
               <item name="Stylists_RestAPI_Project" type="b2602c69:ProjectViewProjectNode" />
               <item name="Stylists_RestAPI_Project" type="462c0819:PsiDirectoryNode" />
+              <item name="api" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Stylists_RestAPI_Project" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Stylists_RestAPI_Project" type="462c0819:PsiDirectoryNode" />
+              <item name="api" type="462c0819:PsiDirectoryNode" />
+              <item name="migrations" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Stylists_RestAPI_Project" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Stylists_RestAPI_Project" type="462c0819:PsiDirectoryNode" />
               <item name="jobs_api" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Stylists_RestAPI_Project" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Stylists_RestAPI_Project" type="462c0819:PsiDirectoryNode" />
+              <item name="jobs_api" type="462c0819:PsiDirectoryNode" />
+              <item name="migrations" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -194,9 +227,8 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="720" y="23" width="720" height="827" extended-state="0" />
-    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" weight="0.3962804" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.3962804" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -396,16 +428,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/api/models.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="525">
-          <caret line="35" selection-start-line="35" selection-end-line="35" />
-          <folding>
-            <element signature="e#0#28#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/api/admin.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="195">
@@ -466,6 +488,16 @@
           <caret line="9" column="54" selection-start-line="9" selection-start-column="54" selection-end-line="9" selection-end-column="54" />
           <folding>
             <element signature="e#0#37#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/api/models.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="555">
+          <caret line="37" lean-forward="true" selection-start-line="37" selection-end-line="37" />
+          <folding>
+            <element signature="e#0#28#0" expanded="true" />
           </folding>
         </state>
       </provider>
