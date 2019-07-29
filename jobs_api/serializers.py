@@ -6,7 +6,7 @@ from api.models import User
 class JobSerializer(serializers.ModelSerializer):
 
     stylist = serializers.HyperlinkedRelatedField(
-        view_name="stylist-detail",
+        view_name="user-detail",
         default=serializers.CurrentUserDefault(),
         queryset=User.objects.all(),
     )

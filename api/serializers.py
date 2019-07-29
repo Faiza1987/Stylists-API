@@ -14,10 +14,16 @@ class UserProfileSerializer(serializers.ModelSerializer):
 class UserSerializer(serializers.HyperlinkedModelSerializer):
     profile = UserProfileSerializer(required=True)
 
+    applied_jobs = serializers.HyperlinkedRelatedField(
+        many=True,
+        read_only=True,
+        view_name='job-detail'
+    )
+
     class Meta:
         model = User
         fields = ('url', 'email', 'first_name', 'last_name',
-                  'password', 'profile')
+                  'password', 'profile', 'applied_jobs')
         extra_kwargs = {'password': {'write_only': True}}
 
     def create(self, validated_data):

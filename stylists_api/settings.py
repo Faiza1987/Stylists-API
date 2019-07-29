@@ -43,6 +43,7 @@ INSTALLED_APPS = [
     'corsheaders',
 
     'api',
+    'jobs_api',
     'rest_framework',
     'rest_framework.authtoken',
     'rest_auth',
